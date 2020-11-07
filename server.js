@@ -7,7 +7,7 @@ app.get("/", (req,res)=>{
     res.render("landing");
   });
 
-  const port=process.env.port || 3000;
-app.listen(port, function() {
-  console.log("Server started on port 3000");
-});
+  const port=process.env.port || 8080;
+  app.listen(port, function() {
+    console.log("Server started on port 8080");
+  });
