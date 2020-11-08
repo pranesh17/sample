@@ -11,11 +11,6 @@ app.get("/", (req,res)=>{
     res.render("landing");
   });
 
-  AWS.config.update({
-    accessKeyId: "ASIASWFKN2QAWFY3CQG3",
-    secretAccessKey: "of0OOHlYsDNjToe5/QPW86o/+Nurev8Rc0+AMmt0"
-
-  });
 
   app.get("/login", (req,res)=>{
     res.render("login");
